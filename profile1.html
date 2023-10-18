@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>О себе</title>
+</head>
+<body class="general">
+    <header>
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <button class="button__out">Выйти из аккаунта</button>
+    </header>
+    <div class="profile__frame">
+        <button class="button__main">На главную</button>
+        <div class="creating-profile__frame">
+            <div class="creating-profile">Создание профиля</div>
+            <div class="about-me">/</div>
+            <div class="about-me">О себе</div>
+        </div>
+        <progress class="progress" id="file" max="100" value="5">5%</progress>
+        <div class="profile__frame__small">
+            <div class="profile__frame__left-side">
+                <div class="avatar">
+                    <div class="avatar__small">
+                        <div class="avatar__text">Аватар профиля</div>
+                        <button class="avatar__button">Загрузить</button>
+                    </div>
+                    <div class="avatar__small-text">Загрузите фотографию весом не более 10 мб</div>
+                </div>
+                <div class="title">
+                    <label class="label">Имя и фамилия</label>
+                    <input class="input__rectangle input__text" placeholder="Имя и фамилия"></input>
+                </div>
+                <div class="boy-and-girl boy-girl">                    
+                    <input type="radio" id="boy" name="sex" checked/>
+                    <label for="boy"></label>
+                    <div class="input__text">Парень</div>
+                    <input type="radio" id="girl" name="sex"/>
+                    <label for="girl"></label>
+                    <div class="input__text">Девушка</div>
+                </div>
+                <div class="date">
+                    <input class="date__rectangle input__text" type="text" placeholder="Дата рождения">
+                    <button class="icons__button">
+                        <img width="16px" class="calendar" src="img/calendar.svg" alt="calendar">
+                    </button>
+                </div>
+                <input class="input__rectangle input__text" type="text" placeholder="Телеграм">
+                <div class="title">
+                    <label class="label" for="number">Номер телефона</label>
+                    <input class="input__rectangle input__text" type="text" name="number" placeholder="Номер телефона">
+                </div>
+                <div class="title__about-me">
+                    <label class="label">О себе</label>
+                    <input class="about-me__start"><input class="input__rectangle__about-me input__text" placeholder="О себе"></input>
+                    <div class="input__text__small">Например: Редко готовлю, но люблю ботать на кухне по ночам. Хочу завести собаку. Очень люблю читать, играть в хорроры и смотреть аниме. Открыт к общению и взаимопомощи :)</div>
+                </div>
+            </div>
+            <div class="profile__frame__right-side">
+                <div class="your__page">
+                    <div class="your__page__small-text">Так будет выглядеть твоя будущая страница</div>
+                    <div class="profile__registration">
+                        <div class="profile__photo">
+                            <img class="profile__photo__mini" src="img/profile__photo-mini.svg" alt="photo">
+                            <button class="profile__button">Показать контакты</button>
+                        </div>
+                        <div class="profile__description">
+                            <div class="profile__rectangle-name"></div>
+                            <div class="profile__small-text">
+                                <div class="profile__rectangle-age"></div>
+                                <img width="3px" src="img/dot.svg" alt="dot">
+                                <div class="profile__rectangle-age"></div>
+                                <img width="3px" src="img/dot.svg" alt="dot">
+                                <div class="profile__rectangle-mini"></div>
+                            </div>
+                            <div class="profile__rectangle-neighbour"></div>
+                            <div class="profile__rectangle-long"></div>
+                            <div class="profile__rectangle-big">
+                                <div class="profile__prefs"></div>
+                                <div class="profile__price"></div>
+                                <div class="profile__metro"></div>
+                                <div class="profile__line"></div>
+                                <div class="profile__rectangles__bottom">
+                                    <div class="profile__alco"></div>
+                                    <div class="profile__neighbour-mini"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="profile__bottom__frame">
+                        <div class="profile__bottom">
+                            <div class="profile__bottom__big-text">Мы совсем ничего про тебя не знаем</div>
+                            <div class="profile__bottom__small-text">Расскажи о себе. <br>Люди пишут тем, кому доверяют. Тем более при поиске соседа</div>
+                        </div>
+                        <div class="profile__emoji">🙁</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-continue__layout">
+        <div class="button-continue">Продолжить</div>
+    </div>
+    <footer class="footer">
+        <div class="footer__support">
+            <div class="footer__support__small">
+                <div class="footer__text__purple">Support@homeet.com</div>
+                <div class="footer__support__small-text">Техническая поддержка</div>
+            </div>
+            <div class="footer__support__row">
+                <div class="footer__support__row-text">О сервисе</div>
+                <div class="footer__support__row-text">Контакты</div>
+                <div class="footer__support__row-text">Политика конфиденциальности</div>
+                <div class="footer__icons"></div>
+                <div class="footer__icons-dist">
+                    <button class="icons__button">
+                        <img class="footer__icons-frame" src="img/telegram.svg" alt="telegram">
+                    </button>
+                    <button class="icons__button">
+                        <img class="footer__icons-frame" src="img/vk.svg" alt="vk">
+                    </button>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__bottom">
+                <div class="footer__bottom__grey-text">Предложение не является публичной офертой. <br> Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</div>
+                <div class="footer__diff-text">
+                    <div class="footer__bottom__grey-text">Сделано в</div>
+                    <div class="footer__bottom__black-text"> бвср</div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="last-line"></div>
+</body>
+</html>
+
